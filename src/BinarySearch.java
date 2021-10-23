@@ -7,17 +7,7 @@ public class BinarySearch {
     public static int runBinarySearchIteratively(int[] sortedArray, int key, int low, int high) {
         //n+1+1+1 = F(n)=n+3
 
-        int index = Integer.MAX_VALUE;//since this is the only variable which is being  declared
-        //and it not
-
-        //example of N^2 Space complexity
-        // int multi-array[][] this is a multi diemionsial array therefore it's space complexity is n^2
-        ////this example below is also n^2 because it is allocating a new array for each iteration of the loop n times
-        /*for(int i=0;i<n;i++){
-        int newarr[]=new int [n];
-
-        }
-        */
+        int index = Integer.MAX_VALUE;
 
         while (low <= high) {
             int mid = low + ((high - low) / 2);
