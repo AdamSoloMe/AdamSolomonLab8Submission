@@ -16,7 +16,7 @@ public class LinearSearch {
 
     //f(n)=n+3
     //the Big O notation of this algorthim is O(N)
-    //The Big Omega notation of this algorthim is Omega(1)
+    //The Big Omega notation of this algorthim is Omega(n)
     //The Big Theta notation of this algorthim is Theta(n)
 
     // Todo 01: - complete the implementation of linear search and test your code
